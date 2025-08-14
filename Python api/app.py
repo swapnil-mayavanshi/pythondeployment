@@ -300,12 +300,12 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             backdrop-filter: blur(10px);
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            padding: 40px;
+            padding: 30px;
             width: 100%;
             max-width: 900px;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px;
+            gap: 30px;
             position: relative;
             overflow: hidden;
         }
@@ -323,7 +323,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         .left-panel {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 20px;
         }
         
         .right-panel {
@@ -331,24 +331,24 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 25px;
+            gap: 20px;
         }
         
         .logo-text {
             color: #dc3545;
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 700;
             text-align: center;
-            margin-bottom: 5px;
+            margin-bottom: 2px;
             grid-column: 1 / -1;
         }
         
         h1 {
             color: #333;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             font-weight: 700;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             grid-column: 1 / -1;
             background: linear-gradient(135deg, #667eea, #764ba2);
             -webkit-background-clip: text;
@@ -359,9 +359,9 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         .subtitle {
             text-align: center;
             color: #666;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             grid-column: 1 / -1;
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
         
         .form-group {
@@ -581,15 +581,15 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         .process-steps {
             display: flex;
             flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
+            gap: 12px;
+            margin-top: 15px;
         }
         
         .step {
             display: flex;
             align-items: center;
-            gap: 15px;
-            padding: 15px;
+            gap: 12px;
+            padding: 12px;
             background: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
             transition: all 0.3s ease;
