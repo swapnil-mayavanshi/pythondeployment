@@ -232,6 +232,15 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             gap: 25px;
         }
         
+        .logo-text {
+            color: #dc3545;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 5px;
+            grid-column: 1 / -1;
+        }
+        
         h1 {
             color: #333;
             font-size: 2.5rem;
@@ -517,6 +526,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 </head>
 <body>
     <div class="container">
+        <div class="logo-text">Jhonsan & Jhonason</div>
         <h1>Document Text Replacer</h1>
         <p class="subtitle">Replace text in PDF, CSV, XML, and XPT files with ease</p>
         
