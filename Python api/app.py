@@ -53,7 +53,7 @@ def replace_text_in_pdf(input_pdf_path, old_text, new_text):
                     'fontsize': original_fontsize,
                     'fontname': font_name
                 }
-                insert_point = fitz.Point(rect.x0, rect.y1 - 2.3)
+                insert_point = fitz.Point(rect.x0, rect.y1 - 2)
                 page.insert_text(insert_point, new_text, **font_params)
     
     output_path = input_pdf_path.replace('.pdf', '_modified.pdf')
@@ -946,3 +946,4 @@ if __name__ == '__main__':
     else:
         # Development settings
         app.run(host='0.0.0.0', port=port, debug=True)
+
