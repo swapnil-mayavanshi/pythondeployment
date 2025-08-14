@@ -649,7 +649,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 </head>
 <body>
     <div class="container">
-        <div class="logo-text">Johnson & Johnson</div>
+        <div class="logo-text">Testing Version</div>
         <h1>Document Text Replacer</h1>
         <p class="subtitle">Replace text in PDF, CSV, XML, XPT files and ZIP folders with ease</p>
         
@@ -946,5 +946,6 @@ if __name__ == '__main__':
     else:
         # Development settings
         app.run(host='0.0.0.0', port=port, debug=True)
+
 
 
